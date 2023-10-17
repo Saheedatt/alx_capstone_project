@@ -26,7 +26,8 @@ In the future, I plan to enhance this project by:
 - Adding more and better enhanced projects to the portfolio.
 - Implementing interactive features for a better user experience.
 - Optimizing the performance and responsiveness of the website.
-
+- Improve its accessibilty
+- Improve it's overall look
 
 # Contact Information:
 - **Name:** Afolabi Saheedat
