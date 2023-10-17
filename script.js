@@ -193,8 +193,8 @@ function validateForm() {
 
 function sendEmail(){
   Email.send({
-    secureToken: "ecd16abd-e3d8-4c3c-a356-db7b1c81baf8",
-    
+    secureToken: "c19165e2-c3d7-4fb7-a703-589ef2c3ca50",
+
     To : 'afolabisaheedat1@gmail.com',
     From : document.getElementById('email').value,
     Subject : "Contact Form Enquiry",
