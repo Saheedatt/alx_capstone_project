@@ -11,9 +11,11 @@ This project showcases my skills as a frontend engineer based on all that I have
 
 ## Technologies Used:
 - HTML
+    - HTML provides the skeletal structure of my webpage. In an attempt to make my page more accessiblr, I tried to use ARIA-lables, according to the WAI-ARIA guidelines. Semantic html was also used.
 - CSS
+    - CSS is used for the design of my page, to make it look overall better. Keyframe animations and transitions were used.
 - JAVASCRIPT
-- Flask
+    - Javascript was used to implement functionalities for my portfolio. Functionlaities that include sidebar, scroll-animations, text-animations and it also served as the server-side validation for my form in that it enables user to fill the form and send me messages from the form. Emailjs was used to make this happen.
 
 ## Screenshots or Demo:
 - ![Project Image](images/capstone.png)
@@ -26,12 +28,12 @@ In the future, I plan to enhance this project by:
 - Adding more and better enhanced projects to the portfolio.
 - Implementing interactive features for a better user experience.
 - Optimizing the performance and responsiveness of the website.
-- Improve its accessibilty
+- Improve its accessibilty and ensure that more people can use it.
 - Improve it's overall look
 
 # Contact Information:
 - **Name:** Afolabi Saheedat
-- **Portfolio:** [Personal Portfolio](link-to-your-portfolio)
+- **Portfolio:** [Personal Portfolio](https://afolabisaheedat.netlify.app/)
 - **Email:** afolabisaheedat1@gmail.com
 - **Twitter:** [@idontseemyselff](https://twitter.com/home)
 
