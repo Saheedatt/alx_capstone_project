@@ -43,20 +43,17 @@ body.active {
 ::-webkit-scrollbar-thumb { 
     background-color:  hsl(0, 0%, 16%); 
 }
-.h1{
+.type1{
     line-height: 1.2;
     font-weight: 400;
     font-size: 6rem;
 }
-.h2{
+.type2{
     line-height: 1.2;
     font-size: 5rem;
     font-weight: 300;
 }
-.h3,
-.h4,
-.h5,
-.h6 {
+.type3{
   line-height: 1.2;
   font-weight: 300;
 }
