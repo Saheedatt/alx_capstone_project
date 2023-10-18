@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="/images/creativity.png">
     <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/6a2abf25a4.js" crossorigin="anonymous"></script>
@@ -34,6 +35,7 @@
   </header>
   <main>
     <article>
+      
     <section class="hero section" id="home" aria-label="home">
       <div class="container">
         <img src="images/curved-arrow.png" width="322" height="322" alt="line art" class="banner">
@@ -50,7 +52,8 @@
       </div>
 
       <img src="images/hero-image.jpg" width="211" height="189" alt="creative-image" class="shape">
-    </section> 
+    </section>
+
     <section class="section about" id="about" aria-label="about-me">
       <div class="container">
   
@@ -60,7 +63,7 @@
             Hey. I'm <br> Afolabi Saheedat
           </h2>
   
-          <div class="wrapper has-before" data-reveal="right">
+          <div class="about-wrapper has-before" data-reveal="right">
   
             <p class="about-text">
               I am a Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus ipsum, 
@@ -87,6 +90,7 @@
           class="shape shape-3">
       </div>
     </section>
+
     <section class="section skills" id="skills" aria-label="my-skills">
       <div class="skills-container container">
         <div class="boxes-container"  data-reveal="left" >
@@ -197,6 +201,7 @@
       </div>
       </div>
     </section>
+
     <section class="section projects" id="projects" aria-label="my-projects">
       <div class="container">
         <div class="favorite-projects">
@@ -323,22 +328,32 @@
         </div>
       </div>
       </section>
+
       <section class="contact" id="contact" aria-label="contact-me">
         <div class="container contact-box">
           <p class="contact-subtitle" data-reveal>Contact Us</p>
-
           <h2 class="h2 contact-title" data-reveal>
             Work inquiry, Job oportunities? Send Message.
           </h2>
-            <form onsubmit="sendEmail(); reset(); return false;">
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
-            <input type="text" id="email" name="email" placeholder="Your Email" required>
-            <span id="email-error" class="error-message"></span>
+           <form id="contact-form" action="#" onsubmit="return validateForm()">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+            <span id="name-error" class="error"></span>
+
+            <label for="email"> Email: </label>
+            <input type="text" id="email" name="email" placeholder="Your Email">
+            <span id="email-error" class="error"></span>
+
+            <label for="message">Message: </label>
             <textarea type="text" id="message" name="message" rows="8" cols="40" placeholder="Your Message"></textarea>
-            <button type="submit">Send Message</button>
-          </form>            
+            <span id="message-error" class="error"></span>
+
+            <input type="submit" class="btn-submit" onclick="return sendMail();" value="Text me!">
+            <p id="success-message" class="success" style="display: none;"></p>
+           </form>
         </div>
       </section>
+
     </article>
     </main>
     <footer class="footer" id="footer" aria-label="footer" data-reveal>
@@ -359,7 +374,7 @@
           </ul>
         </div>
     
-        <p class="copyright">Made for ALX Capstone - Afolabi Saheedat</p>
+        <p class="copyright">ALX Capstone - Afolabi Saheedat</p>
       </div>
     </footer>
     
@@ -368,6 +383,9 @@
 
   
   <script src="script.js"></script>
-      
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js "></script>
+  <script type="text/javascript">
+    emailjs.init('pHZxCv07gPfPVpVp9')
+  </script>
 </body>
 </html> 
