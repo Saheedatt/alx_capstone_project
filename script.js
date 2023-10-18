@@ -1,9 +1,3 @@
-// for calling multiple events
-const addEventOnElements = function (elements, eventType, callback) {
-  for (let i = 0; i < elements.length; i++) {
-    elements[i].addEventListener(eventType, callback);
-  }
-};
 // for our mobile navbar
 const primaryNav = document.querySelector('.primary-nav');
 const navToggler = document.querySelector('.mobile-nav-toggle');
