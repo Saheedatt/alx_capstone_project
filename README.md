@@ -11,7 +11,7 @@ This project showcases my skills as a frontend engineer based on all that I have
 
 ## Technologies Used:
 - HTML
-    - HTML provides the skeletal structure of my webpage. In an attempt to make my page more accessiblr, I tried to use ARIA-lables, according to the WAI-ARIA guidelines. Semantic html was also used.
+    - HTML provides the skeletal structure of my webpage. In an attempt to make my page more accessible, I tried to use ARIA-lables, according to the WAI-ARIA guidelines. Semantic html was also used.
 - CSS
     - CSS is used for the design of my page, to make it look overall better. Keyframe animations and transitions were used.
 - JAVASCRIPT
