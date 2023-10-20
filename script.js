@@ -230,7 +230,7 @@ function sendMail () {
     .then(function (response) {
       console.log('SUCCESS!', response.status, response.text);
       // Clears the form and show success message
-      document.getElementById('success-message').innerText = 'Form successfully submitted.';
+      document.getElementById('success-message').innerText = 'Message successfully sent';
       document.getElementById('success-message').style.display = 'block';
       document.getElementById('contact-form').reset();
     }, function (error) {
