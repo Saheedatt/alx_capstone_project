@@ -497,7 +497,6 @@ nav a.active {
 /***Skills section***/
 .projects { 
     padding-inline: 15px; 
-
     margin-bottom: 30px;
 }
 .projects-title {
@@ -516,7 +515,7 @@ nav a.active {
 }
 
 .portfolio-card { 
-    padding: 30px 10px; 
+    padding: 25px 10px; 
 }
 
 .card-subtitle {
